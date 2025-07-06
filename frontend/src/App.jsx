@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import Header from './components/header/Header'
-import DashBoard from './components/header/DashBoard'
+import DashBoard from './components/dashboard/DashBoard.jsx'
 
 function App() {
   return (

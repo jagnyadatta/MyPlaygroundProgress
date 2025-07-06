@@ -13,10 +13,10 @@ const Card = ({ id, title, content }) => {
           <div className="notibody">{content}</div>
           <div className="dateBody">04-07-2025 04:07 PM</div>
         </div>
-        <div className="flex gap-1 sm:gap-5 items-center">
+        {/* <div className="flex gap-1 sm:gap-5 items-center">
           <button className="w-14 h-8 sm:w-28 sm:h-10 border-2 rounded-lg bg-green-700 text-white">Edit</button>
           <button className="w-16 h-8 sm:w-28 sm:h-10 border-2 rounded-lg bg-red-700 text-white">Delete</button>
-        </div>
+        </div> */}
       </div>
     </StyledWrapper>
   );
