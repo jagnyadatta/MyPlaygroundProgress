@@ -15,4 +15,4 @@ function getFormattedDateTime() {
   return `${day}-${month}-${year} ${formattedHours}:${minutes} ${ampm}`;
 }
 
-console.log(getFormattedDateTime());
+export default getFormattedDateTime;
