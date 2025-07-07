@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Progress from "../progress/Progress";
+import Project from "../project/Project";
 
 const DashBoard = () => {
-  const [menu, setMenu] = useState("progress");
+  const [menu, setMenu] = useState("projects");
   return (
     <div className="flex items-center justify-center flex-col mb-4">
       <div className="flex w-[200px] justify-center border border-t-0 border-black rounded-bl-[18px] rounded-br-[18px]">
@@ -33,7 +34,7 @@ const DashBoard = () => {
         </div>
       ) : (
         <div>
-          <h2>Projects</h2>
+          <Project/>
         </div>
       )}
     </div>
