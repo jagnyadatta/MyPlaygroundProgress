@@ -100,6 +100,7 @@ const StyledWrapper = styled.div`
   .notibody {
     color: #99999d;
     padding: 0 1.25rem 2rem 1.25rem;
+    white-space: pre-line;
     transition: transform 300ms ease;
     z-index: 5;
   }
